@@ -1,0 +1,345 @@
+{% load static %}
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.showon {
+
+}
+.showoff {
+    background-color: #a0a0a0;
+}
+.box {
+    width: 100%;
+    border: 10px solid rgb(51, 51, 51);
+    padding: 10px;
+}
+.tab a {
+    margin-right: 40px;
+}
+.mtab button {
+    margin-left: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#menuicon{
+    margin-left: 10px;
+    margin-top: 32.920;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    /*background-color: #fff;*/
+    /*border: 2px solid #444;*/
+    border-radius: 50%;
+}
+#menuicon div { 
+    position: unset;
+    left: 10px;
+    height: 2px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    border-color: #fff;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#menuicon div:nth-of-type(1) {
+    bottom: 33px;
+}
+#menuicon div:nth-of-type(2) {
+    margin-top: 5px;
+    bottom: 23px;
+}
+#menuicon div:nth-of-type(3) {
+    margin-top: 5px;
+    bottom: 13px;
+}
+
+
+.title {
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 50px;
+    position: absolute;
+    left: 0%;
+    margin-left: 20;
+}
+
+
+
+
+.menucontents {
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    display: flex;
+    width:fit-content;
+}
+
+
+#menu {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: solid 0px #60ABDA;
+    border-radius: 5px 5px 0px 0px;
+    transition: .4s;
+    animation: fadeIn 1.5s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+    
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+#menu a {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+	
+}
+
+#menu:hover {
+    background: #60ABDA;
+    color: #fff;
+}
+
+.makebox {
+    width: fit-content;
+    border-radius: 10px;
+    overflow: hidden;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.workmenu {
+    width: 100%;
+}
+.indent{
+    color: #404040;
+    font-weight: bolder;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.indents{
+    font-weight: bold;
+    width: 717px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#ma:hover {
+    color: #fff;
+}
+.mv, .mlive, .movie, .promo, .make, .other {
+    padding: 5px;
+    background-color: #cfd5d8;
+}
+.boxes {
+    width: 696px;
+    padding: 10px;
+    background-color: #cfd5d8;
+}
+
+.mvd, .mlived, .movied, .promod, .maked, .otherd {
+    display:none;
+}
+
+.artname {
+    font-size: large;
+    font-weight: bold;
+}
+.nametag {
+    margin-left: 20px;
+    font-weight: bold;
+}
+.namespase {
+    margin-left: 40px;
+}
+
+
+.hr {
+    border-bottom:2px solid #000107;
+}
+
+.contentop {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    width: fit-content;
+    padding-bottom: 5px;
+    color: #000;
+}
+
+.contents{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+
+.info {
+    text-align: right;
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+.info a {
+    color: #a0a0a0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.youtubes {
+    margin-top: 20px;
+}
+
+.down {
+    margin-left: 40px;
+}
+
+.down a {
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.down a p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.down a::before{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("/static/down_sp.png");
+    background-size: contain;
+
+    position: relative;
+    top: 0%;
+
+    margin-right: 5px;
+}
+
+.news {
+    margin-left: 50px;
+}
+
+.newstop {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.topic {
+    font-weight: bold;
+    font-size: large;
+}
+.day {
+    color: #a0a0a0;
+    font-size: smaller;
+    margin-left: 10px;
+}
+.content {
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #404040;
+}
+
+@media screen and (max-width:660px) {
+	.menubar {
+		margin-top:0px;
+		background-image: linear-gradient(90deg, rgba(0, 1, 7, 1) 0%, rgba(1, 9, 71, 1) 50%, rgba(0, 1, 7, 1) 100%);
+	
+	}
+
+	.vid{
+		text-align: center;
+	}
+
+    .youtubes {
+        position: relative;
+        left: 0%;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+      }
+
+    .youtubes  iframe{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 661px) {
+	.menubar {
+		margin-top:0px;
+		background-image: linear-gradient(90deg, rgba(0, 1, 7, 1)30%, rgba(1, 9, 71, 1) 50%, rgba(0, 1, 7, 1)70%);
+	
+	}
+
+	.vid{
+		padding-left: 50px;
+	}
+
+    .youtubecontents {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .youtubes {
+        margin-left: 20px;
+        position: relative;
+        left: 0%;
+        overflow: hidden;
+        padding-right: 30%;
+        height: 0;
+        padding-bottom: 17%;
+      }
+
+    .youtubes  iframe{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .down {
+        display: flex;
+    }
+    .down a {
+        margin-right: 20px;
+    }
+}
